@@ -1,0 +1,307 @@
+﻿        body {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            margin: 0px;
+        }
+
+        form {
+            margin: 0px;
+        }
+
+        div {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+
+        p {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+
+        table {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            width: 100%;
+            border-collapse: collapse;
+            border: none;
+        }
+
+        image, input.imgButton {
+            border: none;
+        }
+
+        image.imgButton, input.imgButton {
+            cursor: pointer;
+        }
+
+         select {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+      
+
+        input.text, textarea.text, select.text {
+            color: #cc0000;
+            border: #adadad 1px solid;
+        }
+
+        input.button {
+            background-color: #cdcdcd;
+            border: solid 1px #adadad;
+            color: #000000;
+            margin: 2px;
+        }
+
+        input.button[disabled] {
+            background-color: #cdcdcd;
+            border: solid 1px #adadad;
+            color: #ffffff;
+            margin: 2px;
+            padding: 0px 6px 0px 6px;
+        }
+
+        ol.listaLetrasMinusculas {
+            list-style-type: lower-latin;
+        }
+
+        .tamanhoMax {
+            width: 100%;
+        }
+
+        .alinharEsquerda {
+            text-align: left;
+        }
+
+        .input-block {
+            font-size: 14px;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background:#fff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+        }
+
+        label {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .form-drt13 {
+            border-radius: 10px;
+            justify-content: center;
+            width: 380px;
+            border: solid ;
+            align-items: center;
+            height: 500px;
+            padding: 5px;
+        }
+
+
+        .input-block input{
+            width:370px;
+            height:300px;
+            border-radius: 10px;
+
+        }
+
+        .form-title select{
+            border-radius: 10px;
+
+
+        }
+
+
+    
+
+        table.gridView {
+            border: solid 1px #000000;
+        }
+
+        th.gridViewTituloColuna {
+            background-color: #bcbcbc;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: solid 1px #000000;
+        }
+
+        tr.linhaAlternada {
+            background-color: #dddddd;
+        }
+
+
+        tr.gridViewPagerTemplate {
+            text-align: right;
+            padding-right: 10px;
+            border-top: solid 1px #000000;
+        }
+
+     
+
+    
+
+       
+
+
+        /* ELEMENTOS DO CABECALHO E RODAPE */
+
+        h1#logo {
+            overflow: hidden;
+            width: 255px;
+            height: 65px;
+            background: url(../../images/logo.gif) no-repeat;
+            float: left;
+            margin: 0px;
+            /* Evita a margem com valor dobrado no IE */
+            display: inline;
+        }
+
+        h1#logo a {
+            width: 400px;
+            height: 70px;
+            display: block;
+            text-indent: -5000em;
+        }
+
+        div.menuSuperior {
+            position: absolute;
+            left: 10px;
+        }
+
+        TD.titulo_sistema, TD.titulo_pagina {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-weight: bold;
+            FONT-SIZE: 18px;
+        }
+
+        TD.titulo_sistema {
+            text-align: justify;
+            COLOR: #666666;
+            padding-right: 20px;
+            text-align: right;
+        }
+
+        TD.titulo_pagina {
+            text-align: left;
+            COLOR: #000000;
+            padding-left: 20px;
+        }
+
+        tr.cabecalhoMenu {
+            height: 22px;
+            background-image: url("../../images/internet/fundo_preto3.gif");
+            background-repeat: repeat;
+        }
+
+        td.cabecalhoBotoes {
+            text-align: right;
+            padding-right: 5px;
+        }
+
+        #footer {
+            margin: 0 auto;
+            text-align: left;
+            background-color: #666666;
+            clear: both;
+            padding: 3px 0;
+            color: #ffffff;
+            font-size: 11px;
+            text-align: center;
+            height: 30px;
+            padding-top: 7px;
+        }
+
+        #footer p, #footer address {
+            margin: 0;
+            font-style: normal;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        table.content {
+            margin-bottom: 8px;
+        }
+
+        td.contentLeftMargin {
+            height: 510px;
+        }
+
+        td.contentMain {
+            width: 100%;
+            vertical-align: top;
+            text-align: left;
+            padding-top: 10px;
+        }
+
+        /* FIM ELEMENTOS DO CABECALHO E RODAPE */
+
+        /* FORMULARIO */
+
+        td.cantoSupEsq {
+            background-image: url("../../images/internet/cantoSupEsq.gif");
+            background-repeat: no-repeat;
+        }
+
+        td.cantoSupDir {
+            background-image: url("../../images/internet/cantoSupDir.gif");
+            background-repeat: no-repeat;
+        }
+
+        td.cantoInfEsq {
+            background-image: url("../../images/internet/cantoInfEsq.gif");
+            background-repeat: no-repeat;
+        }
+
+        td.cantoInfDir {
+            background-image: url("../../images/internet/cantoInfDir.gif");
+            background-repeat: no-repeat;
+        }
+
+        td.linhaSuperior {
+            background-image: url("../../images/internet/linhaSuperior.gif");
+            background-repeat: repeat-x;
+            height: 9px;
+        }
+
+        td.linhaInferior {
+            background-image: url("../../images/internet/linhaInferior.gif");
+            background-repeat: repeat-x;
+            height: 9px;
+        }
+
+        td.linhaEsquerda {
+            background-image: url("../../images/internet/linhaEsquerda.gif");
+            background-repeat: repeat-y;
+            width: 7px;
+        }
+
+        td.linhaDireita {
+            background-image: url("../../images/internet/linhaDireita.gif");
+            background-repeat: repeat-y;
+            width: 7px;
+        }
+
+        td.NFEfundo {
+            background-color: #e6e6e6;
+        }
+
+        td.NFEbotton {
+            background-color: #f5f5f5;
+        }
+
+        td.formContent {
+            background-color: #e6e6e6;
+        }
+
+        /* FIM FORMULARIO */

@@ -1,0 +1,24 @@
+﻿.menuSuperiorOver, .menuSuperiorLevel0,
+.menuSuperiorLevel1, .menuSuperiorLevel2,
+.menuSuperiorLevel3
+{
+	border: solid 1px #ffffff;
+	font-size: 10px;
+	text-align: left;
+	padding-left: 3px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.menuSuperiorLevel0, .menuSuperiorLevel1,
+.menuSuperiorLevel2, .menuSuperiorLevel3
+{
+	background-color: #EEEEEE;
+	color: #cc0000;
+}
+
+.menuSuperiorOver 
+{
+	background-color: #C6CFD7;
+	color: #000000;
+}
